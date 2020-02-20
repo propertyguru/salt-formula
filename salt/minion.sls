@@ -17,7 +17,7 @@ download-salt-minion:
     {% endif %}
     - user: root
     - group: wheel
-    - mode: 0644
+    - mode: '0644'
     - unless:
       - test -n "{{ salt_settings.version }}" && '/opt/salt/bin/salt-minion --version=.*{{ salt_settings.version }}.*'
     - require_in:
@@ -65,7 +65,7 @@ salt-minion:
               }}
     {%- else %}
     - template: jinja
-    - source: salt://{{ slspath }}/files/minion.d
+    - source: salt://{{ tplroot }}/files/minion.d
     - context:
         standalone: False
     {%- endif %}
