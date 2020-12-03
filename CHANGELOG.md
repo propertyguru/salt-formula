@@ -1,5 +1,68 @@
 # Changelog
 
+# [1.7.0](https://github.com/saltstack-formulas/salt-formula/compare/v1.6.0...v1.7.0) (2020-10-12)
+
+
+### Continuous Integration
+
+* **pre-commit:** add to formula [skip ci] ([7ff962e](https://github.com/saltstack-formulas/salt-formula/commit/7ff962e2addd97e84dd99c87351b1412f64134af))
+* **pre-commit:** enable/disable `rstcheck` as relevant [skip ci] ([426b29c](https://github.com/saltstack-formulas/salt-formula/commit/426b29c21149f5cef9064177177891a091c6bb82))
+* **pre-commit:** finalise `rstcheck` configuration [skip ci] ([22fa616](https://github.com/saltstack-formulas/salt-formula/commit/22fa616f59864a77e3f7ea5b17e8a7f0bcf415be))
+
+
+### Features
+
+* add Gentoo support ([127c5d7](https://github.com/saltstack-formulas/salt-formula/commit/127c5d779b1e2b9beb7322a2d03a027c50e5c6d7))
+
+# [1.6.0](https://github.com/saltstack-formulas/salt-formula/compare/v1.5.2...v1.6.0) (2020-09-20)
+
+
+### Features
+
+* enable the metadata grains server by default ([b1d296d](https://github.com/saltstack-formulas/salt-formula/commit/b1d296d270d3cc06332f569f81ee95fc78d95596))
+
+## [1.5.2](https://github.com/saltstack-formulas/salt-formula/compare/v1.5.1...v1.5.2) (2020-09-20)
+
+
+### Bug Fixes
+
+* **jinja:** stop repeating user/group args ([e313401](https://github.com/saltstack-formulas/salt-formula/commit/e313401cd657a77a3624ed372c8e22e905c2d172))
+* **windows:** dont run master state ([a36f2eb](https://github.com/saltstack-formulas/salt-formula/commit/a36f2eb2d2ab4e3d57885177f3438037b15318e3))
+* **windows:** git.latest(parallel:true) does not work ([0c591bb](https://github.com/saltstack-formulas/salt-formula/commit/0c591bba95cebd341e73cdd0fc986428ee34ce7e))
+* **windows:** group arg not supported on windows ([d61e671](https://github.com/saltstack-formulas/salt-formula/commit/d61e671fa0de58fe60c5c0cdc23d55c49b93dd01))
+* **windows:** group name is users not root ([887d155](https://github.com/saltstack-formulas/salt-formula/commit/887d1559b5496dd07e730390f4309568d0428c2f))
+
+## [1.5.1](https://github.com/saltstack-formulas/salt-formula/compare/v1.5.0...v1.5.1) (2020-08-25)
+
+
+### Bug Fixes
+
+* **service:** service salt-master and salt-minion to restart last ([d71cf0c](https://github.com/saltstack-formulas/salt-formula/commit/d71cf0c4f9ba716b93b784993f0409337e60fa18))
+* **service:** svc `salt-master` watch `remove-default-master-conf-file` ([e1774e3](https://github.com/saltstack-formulas/salt-formula/commit/e1774e3b40c54b554552ecf34508c1bcbf5ffbd1))
+
+
+### Styles
+
+* **libtofs.jinja:** use Black-inspired Jinja formatting [skip ci] ([76e820c](https://github.com/saltstack-formulas/salt-formula/commit/76e820c36f6f0ea712001285dd79cbd5b54489e8))
+
+# [1.5.0](https://github.com/saltstack-formulas/salt-formula/compare/v1.4.6...v1.5.0) (2020-07-15)
+
+
+### Bug Fixes
+
+* **macos:** use macos service names ([c72b183](https://github.com/saltstack-formulas/salt-formula/commit/c72b183f5ff885b30f0ac0fff8c9a847333a9304))
+* **minion:** fix requisites from recent prs ([a466456](https://github.com/saltstack-formulas/salt-formula/commit/a46645607b3e20cf2f69a51e976457c201830c4c))
+
+
+### Features
+
+* **macos:** basic launchctl service support ([94027f7](https://github.com/saltstack-formulas/salt-formula/commit/94027f7332093764553162d9e80074029647f7ef))
+
+
+### Tests
+
+* **versions:** bump pkg versions ([37eb3b3](https://github.com/saltstack-formulas/salt-formula/commit/37eb3b35141885fe16ddc59d0ba45b29dbd5babe))
+
 ## [1.4.6](https://github.com/saltstack-formulas/salt-formula/compare/v1.4.5...v1.4.6) (2020-07-01)
 
 
